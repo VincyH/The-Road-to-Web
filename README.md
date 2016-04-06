@@ -1,3 +1,3 @@
-# webtraining_bd
-some training work from Baidu web technology institute
+# webtraining
+some training work from baidu web technology institute
 
