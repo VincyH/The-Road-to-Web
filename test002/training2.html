@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Web Study</title>
+    <link href="./css2.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="nav">
+    <h1 id="head">BLOG</h1>
+    <ul>
+        <li><a href="#">导航链接一</a></li>
+        <li><a href="#">导航链接二</a></li>
+        <li><a href="#">导航链接三</a></li>
+    </ul>
+</div>
+
+<div class="box">
+    <div><h1>文章一级标题</h1></div>
+    <div><h2>文章二级标题</h2></div>
+
+    <div><p>文章作者 文章发表时间</p></div>
+
+    <blockquote>这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这一个长长的段落，这是一个长长的段落，这是一个长长的段落，<br/>换行了</blockquote>
+    <blockquote>这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，换行了</blockquote>
+    <blockquote>这是一个长长的段落，
+        <a href="https://www.baidu.com/">这里有一个链接链接到https://www.baidu.com/(默认自我覆盖跳转)</a>
+        这是一个长长的段落，这是一个长长的段落，<b>这里有个粗体字</b>这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，<br/>
+        这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，这是一个长长的段落.
+    </blockquote>
+    <div>
+        <img src="pic.jpg" alt=""/>
+    </div>
+    <blockquote>
+        这是一个长长的段落，这是一个长长的段落，这是一个长长的段落，
+        <a href="https://www.baidu.com/" target="_blank">这里有一个链接链接到https://www.baidu.com/(创建新窗口打开页面)</a>
+    </blockquote>
+</div>
+
+
+<article class="box">
+    <h1>另一篇文章一级标题</h1>
+
+    <h2>文章二级标题</h2>
+
+    <div>
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+
+    </div>
+</article>
+<div class="box">
+    <div>
+        <h1>图片展</h1>
+    </div>
+
+    <div>
+        好看的图片
+        <img src="pic.jpg" alt=""/>
+    </div>
+    <div class="_pic">
+        <br/>好看的图片<br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+        <img src="pic.jpg" alt=""/><br/>
+    </div>
+
+</div>
+
+
+<article class="box">
+    <h1>第三篇文章一级标题</h1>
+
+    <h2>文章二级标题</h2>
+
+    <div>
+        <p>
+            文章作者 文章发表时间
+        </p>
+        <ul class="pai3">
+            <li type="1">排名1</li>
+            <li type="1">排名2</li>
+            <li type="1">排名3</li>
+        </ul>
+
+    </div>
+
+    下面是一个表格，给表格加了一个border="1",border是边框像素值，好让你看出是一个表格
+    <table border="1">
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td style="color: red">操作</td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td style="color: red">操作</td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td style="color: red">操作</td>
+        </tr>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+</article>
+
+<article class="box" id="lbox">
+    <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+
+    <div>请输入邮箱地址：
+        <input type="text" placeholder="这是一个文本输入框"/>
+
+        <p class="p1">邮箱地址请按要求格式输入</p>
+    </div>
+
+    <div>请输入密码：<input type="text" placeholder="这是一个文本输入框"/><br/>
+        请重复输入密码：<input type="text" placeholder="这是一个文本输入框"/>
+
+        <p class="p1">密码请为6-16位英文数字</p>
+    </div>
+
+
+    <div>性别：
+        <input type="radio" name="sex" checked="checked"/>女
+        <input type="radio" name="sex"/>男<br/>
+
+        城市：
+        <input type="text" list="citylist"/>
+        <datalist id="citylist">
+            <option value="北京"></option>
+            <option value="上海"></option>
+            <option value="广州"></option>
+            <option value="珠海"></option>
+        </datalist><br/>
+        爱好：<label><input type="checkbox"/>运动</label>
+        <label><input type="checkbox"/>艺术</label>
+        <label><input type="checkbox"/>科学</label><br/>
+
+    </div>
+    <div class="des">
+        <span>个人描述：</span>
+        <textarea name="text" rows="5" cols="60" ></textarea>
+    </div>
+    <input type="submit" value="确认提交" class="submit"/>
+</article>
+<footer style="font-size: large" >
+    版权所有&copy;
+</footer>
+
+</body>
+</html>

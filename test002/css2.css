@@ -1,0 +1,138 @@
+*{
+    font-family:"Microsoft Yahei";
+}
+body{width: auto;
+    height: auto;
+    margin: 0px;
+    background-color: darkgrey;
+}
+div,article{
+    background-color: #FFFFFF;
+}
+ blockquote{
+     text-indent: 2em;
+     margin: 16px 0px;
+}
+.nav{
+    background-color: #428bca;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 65px;
+}
+#head{
+    float: left;
+    line-height: 65px;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    color: #FFFFFF;
+    left: 40px;
+    font-size: 40px;
+    font-family:Arial;
+}
+.nav ul{
+    list-style-type:none;
+    float: right;
+    line-height: 65px;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    right: 100px;
+}
+.nav ul li{
+    float: right;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.box{
+    margin: 15px 30px;
+    padding: 20px 20px;
+}
+._pic img{
+    padding-left: 100px;
+}
+table{
+    margin: 15px;
+    width: 90%;
+    border: 1px solid black;
+    border-spacing:0px;
+}
+table tr{
+    margin: 0px;
+}
+table th{
+    text-align: left;
+    color: white;
+    background-color: #616161;
+    padding: 0px;
+}
+table td{
+    padding: 0px;
+}
+h2,div>p{
+    color: grey;
+    font-family: 'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial;
+    font-weight: normal;
+}
+div>img{
+    padding: 10px 10px;
+}
+
+div ul{
+    list-style-type: none;
+}
+
+._pic img{
+    border: 1px solid;
+    margin: 10px;
+    padding: 30px 10px 10px;
+    width: 220px;
+}
+.pai3{
+    margin-left: 20px;
+    font-weight: bold;
+}
+#lbox div{
+    margin-left: 400px;
+}
+#lbox input{
+    margin: 10px;
+}
+
+#lbox p{
+    font-size: 10px;
+}
+.des span{
+    float: left;
+    margin-right: 10px;
+}
+.des{
+    margin: 10px;
+}
+.p1{
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+.submit{
+    border: 2px solid #428bca;
+    background-color: #428bca;
+    height: 30px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    width: 100%;
+    font-family: Microsoft Yahei;
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background-color: #428bca;
+    color: #FFFFFF;
+    line-height: 60px;
+}
